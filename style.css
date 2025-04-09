@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("https://media.istockphoto.com/id/950276132/vector/abstract-geometric-texture-trendy-white-background.jpg?s=612x612&w=0&k=20&c=vrREEfWAn8kzirE6a6YICiQOgNyDUS5tjhWyhCx8yQ0=");
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+}
+#reg-container,#reg-container-2{
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    padding: 0px 20px;
+    
+}
+#reg-container{
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+#btn-color{
+    background-color: darkblue;
+    color: white;
+    border: none;
+    outline: none;
+}
+#forgot-password{
+    color: darkblue;
+    
+}
+#reg-container-2{
+    margin-left: -20px;
+    margin-top: 10px;
+    height: 165px;
+    background-color: rgb(235, 235, 255);
+    padding-bottom: 45px;
+    font-size: 13px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+#myfooter{
+    margin-top: 200px;
+    width: inherit;
+    height: 150px;
+    background-color: beige;
+}
+
